@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(132, 180, 214);
+    color: rgba(253, 237, 225, 0.946);
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+h3 {
+    color:rgba(254, 170, 142, 0.983);
+    font-size: 110px;
+
+}
+
+h1 {
+    color:rgb(213, 200, 231)
+}
+
+p {
+    color:rgba(180, 84, 158, 0.899);
+}
+
+img {
+    width: 350px;
+    height:500px;
+    border-style:double;
+    margin-left: 100px;
+    padding: 33px;
+}
+
+
+.img1{
+    width: 350px;
+    height: 500px;
+}
+.img2{
+    width: 550px;
+    height: 400px;
+}
+
+
+a, small {
+color:rgba(191, 97, 29, 0.959)
+}
+/*Esto es un comentario*/

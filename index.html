@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Esto es un comentario-->
+    <head>
+        <title>Página de leones</title>
+        <meta charset="UTF-8">
+        <link href="estilos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Página de leones</h1>
+
+        <h3>Imágenes de leones</h3>
+        <!--Imagen desde internet-->
+        <img class="img1" src="https://i.pinimg.com/236x/50/f3/75/50f375a46c0c481e51e264fa7837a6df.jpg">
+
+
+        <!--Imagen desde computadora-->
+        <img class="img2" src="imagenes/leonuno.jpg">
+    
+        <!--Crear enlaces externos-->
+        <p>Si quieres ver más imágenes de leones, <a href="https://www.pinterest.es/search/pins/?q=leones&rs=typed" target="_blank">da click en este enlace</a>.</p>
+
+        <h3>Listas de leones</h3>
+
+        <p>3 cosas que los leones <strong>aman</strong></p>
+
+        <!--Lista ordenada-->
+        <ol> <!--Ordered list-->
+            <li>Vivir en manada e interactuar con otros leones</li> <!--List item-->
+            <li>Cazar a sus presas</li>
+            <li>Dormir mucho</li>
+        </ol>
+
+        <p>3 cosas que los leones <i>odian</i></p>
+
+        <!--Lista desordenada-->
+        <ul> <!--Unordered list-->
+            <li>Los puercoespines, por sus puas</li>
+            <li>No les gusta comer humanos</li>
+            <li>Cazar de día</li>
+        </ul>
+
+        <!--Formularios-->
+        <form> 
+            <!--Form con botones de radio-->
+            <p>¿Te gustan los leones?</p>
+            <label>
+                <input id="si" type="radio" value="si" name="si-no" checked>Si
+            </label>
+            <label>
+                <br>
+                <input id="no" type="radio" value="no" name="si-no">No
+            </label>
+
+            <!--Form con checkbox-->
+            <p>¿Qué clase de leones te gustan?</p>
+            <label>
+                <input id="asiatico" type="checkbox" value="asiatico" name="tipo">Asiático
+            </label>
+            <br>
+            <label>
+                <input id="africano" type="checkbox" value="africano" name="tipo">Africano
+            </label>
+            <br>
+            <label>
+                <input id="albino" type="checkbox" value="albino" name="tipo" checked>Albino
+            </label>
+        </form>
+    </body>
+        
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+    </footer>
+</html>
